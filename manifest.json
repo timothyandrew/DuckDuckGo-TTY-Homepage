@@ -1,0 +1,9 @@
+{
+  "name": "DuckDuckGo TTY Homepage",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Override the New Tab page to use the DuckDuckGo TTY",
+  "chrome_url_overrides" : {
+    "newtab": "redirect.html"
+  }
+}
